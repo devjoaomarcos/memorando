@@ -15,7 +15,7 @@
 
 #campo-busca::placeholder {
   color: #6C757D;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   font-size: 16px;
   padding: 8px 0 8px 8px;
 }
@@ -23,7 +23,7 @@
 .busca input {
   border: 1px solid #6C757D;
   border-radius: 8px;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   font-size: 16px;
   height: 40px;
   width: 300px;
@@ -87,7 +87,7 @@ input[type="search"]::-webkit-search-decoration,
 
 .listagem-tarefas h2{
   font-size: 32px;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   font-weight: 400;
   line-height: 48px;
 }
@@ -106,8 +106,6 @@ h2 {
 }
 
 button {
-  border-style: solid;
-  border-color: rgb(175, 193, 207);
   background-color: rgba(245, 245, 245, 0.871);
   border-radius: 8px;
   margin-right: 10px;
@@ -116,7 +114,7 @@ button {
   cursor: pointer;
   font-weight: bold;
   margin-bottom: 16px;
-  border: none;
+  border: none rgb(175, 193, 207);
   width: max-content;
 }
 
@@ -130,7 +128,7 @@ button {
   background: #263238;
   border-radius: 8px;
   color:#FFFFFF;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   font-weight: 600;
   font-size: 16px;
   padding: 8px 16px;
@@ -145,7 +143,7 @@ button {
 }
 
 .botao-form {
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -211,7 +209,7 @@ input {
 }
 
 .form-tarefa {
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 16px;
@@ -275,7 +273,7 @@ select:focus, input:focus {
   justify-content: flex-end;
   align-items: center;
   height: 40px;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   color: #263238;
 }
 
@@ -303,7 +301,7 @@ select:focus, input:focus {
   justify-content: center;
   align-items: center;
   height: 40px;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   color: #263238;
   padding-right: 8px;
   padding-left: 8px;
@@ -330,7 +328,7 @@ select:focus, input:focus {
   display: flex;
   align-items: center;
   height: 40px;
-  font-family: 'Prompt';
+  font-family: 'Prompt', serif;
   color: #263238;
   padding-right: 8px;
   padding-left: 8px;
@@ -373,7 +371,6 @@ select:focus, input:focus {
 
 .ng-template {
   text-align: center;
-  margin-top: 48px;
   margin-top: 96px;
 }
 
